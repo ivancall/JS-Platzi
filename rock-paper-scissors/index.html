@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <script src="js/main.js"></script>
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <main class="contenedor contenido-centrado">
+            <div class="titulo">
+                <h2 class="centrar-texto">Piedra, Papel o Tijeras</h2>
+            </div>
+
+
+            <form>
+            <fieldset>
+                <legend>Seleccione una opción</legend>
+                    <div class="opciones">
+                        <input type="radio" id="opc1" name="seleccion" class="opciones" value="Piedra">
+                        <label class="label" for="opc1" >Piedra</label>
+
+                        <input type="radio" id="opc2" name="seleccion" class="opciones"  value="Papel">
+                        <label class="label" for="opc2" >Papel</label>
+
+                        <input type="radio" id="opc3" name="seleccion" class="opciones"  value="Tijeras">
+                        <label class="label" for="opc3" >Tijeras</label>
+                    </div>
+            </fieldset>
+            </form>
+            
+            <input type="submit" onclick ="evaluar()" value="¡Jugar!" class="boton centrar-texto">
+
+        </main>
+    </body>
+</html>
