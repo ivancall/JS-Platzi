@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <script src="js/main.js"></script>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <main class="global">
+        <center>
+            <h1>Figuras Geométricas</h1>
+        </center>
+        <div class="elementos">
+            <div>
+            <h2>Cuadrado</h2>
+                <div class="contenedor">
+                    <label for="l_cuadrado">Ingresa el lado (cm):</label>
+                    <input class="clean" id="l_cuadrado" type="text">
+
+                    <label for="a_cuadrado">El area es:</label>
+                    <input class="clean" id="a_cuadrado" type="text">
+
+                    <input type="submit" class="calcular" onclick="datosCuadrado();" value="calcular">
+                
+                </div>
+            </div>
+            <div>
+            <h2>Triangulo</h2>
+                <div class="contenedor">
+                    <label for="b_triangulo">Ingresa la base(cm):</label>
+                    <input class="clean" id="b_triangulo" type="text">
+
+                    <label for="h_triangulo">Ingresa la altura(cm):</label>
+                    <input class="clean" id="h_triangulo" type="text">
+
+                    <label for="a_triangulo">El area es:</label>
+                    <input class="clean" id="a_triangulo" type="text">
+
+                    <input type="submit" class="calcular" onclick="datosTriangulo();" value="calcular">
+                </div>
+            </div>
+            <div>
+            <h2>Circulo</h2>
+                <div class="contenedor">
+                    <label for="r_circulo">Ingresa el radio (cm):</label>
+                    <input class="clean" id="r_circulo" type="text">
+
+                    <label for="a_circulo">El area es:</label>
+                    <input class="clean" id="a_circulo" type="text">
+
+                    <input type="submit" class="calcular" onclick="datosCirculo();" value="calcular">
+                </div>
+            </div>
+        </div>
+    </main>
+    </body>
+</html>

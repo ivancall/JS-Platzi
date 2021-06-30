@@ -1,0 +1,14 @@
+html{
+    background-color: azure;
+}
+.contenedor{
+    display: grid;
+}
+.global{
+    display: flex;
+    flex-direction: column;
+}
+.elementos{
+    display: flex;
+    justify-content: space-around;
+}
